@@ -1,0 +1,27 @@
+.header {
+  overflow: hidden;
+  background-color: #f1f1f1;
+  padding: 20px 10px;
+}
+
+body{
+	margin:0;
+	background-color: #33FFBB ;
+}
+ul{
+	text-align: left;
+}
+#D01{
+	border-radius: 8px;
+	background-color: #34A2C0;
+	padding: 30px 30px 30px 30px;
+	margin: 50px 420px 100px 420px;
+}
+.tituj{
+	display: inline;
+	color: red;
+	margin-bottom: 50px;
+}
+.button{
+	background-color: #34A2C0;
+}
