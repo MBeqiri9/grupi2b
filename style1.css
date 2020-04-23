@@ -1,0 +1,47 @@
+.header{
+	height: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 80%;
+	left: 10%;
+	right: 10%;
+	position: relative;
+	border: 1px solid black;
+	align-items: center;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.left-side{
+	display: flex;
+}
+.header ul{
+	display: flex;
+	list-style-type: none;
+}
+.header img{
+
+	height: 50px;
+	width: 50px;
+}
+.lista-majte  {
+height: inherit;
+}
+.lista-majte  li {
+	padding: 0px 10px;
+	padding-top: 13px;
+}
+.lista-majte li:hover {
+	background-color: blue;
+	color: white;
+
+}
+.lista-djatht{
+	height: 50%;
+	border: 1px solid black;
+	align-items: center;
+}
