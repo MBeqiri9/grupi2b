@@ -1,27 +1,110 @@
-.header {
-  overflow: hidden;
-  background-color: #f1f1f1;
-  padding: 20px 10px;
+body{
+	margin: 0;
+	background-image: url(blue1.jpg);
+	height: 80vh;
+	background-size: cover;
+
+	
+}
+.container{
+
+	padding-right: 1rem;
+	padding-left: 1rem;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+		height: 80%;
+}
+.title{
+	flex:0 0 100%;
+	max-width: 100%;
+	padding-right: 1rem;
+	padding-left: 1rem;
+	color: white;
+	font-family: sans-serif;
+	text-align: center;
+
+}
+.tituj1{
+	font-size: 2rem;
+}
+.tituj2{
+	font-size:3rem;
+}
+.butonat{
+	padding-top: 2rem;
+	border-radius: 8px;
+}
+.bt1{
+	background-color: #7567f8;
+	border-color: #7567f8;
+	color: white;
+	border-radius:14px;
+	padding: 14px 30px;
+}
+.bt2{
+	background-color: #c900fc;
+	border-color: #c900fc;
+	color: white;
+	border-radius:14px;
+	padding-top: 1%;
+	padding-bottom: 1%;
+
+	margin-left: 1%;
 }
 
-body{
-	margin:0;
-	background-color: #33FFBB ;
+
+.pjesa2{
+	padding-top: 7rem;
+	padding-bottom: 7rem;
+	background-color: white;
+	position: relative;
 }
-ul{
-	text-align: left;
+.container2{
+	max-width: 720px;
+	padding-right: 1rem;
+	padding-left: 1rem;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
 }
-#D01{
-	border-radius: 8px;
-	background-color: #34A2C0;
-	padding: 30px 30px 30px 30px;
-	margin: 50px 420px 100px 420px;
+.bllok-i-vogel{
+	padding-bottom: 3rem;
+	text-align: center;
 }
-.tituj{
-	display: inline;
-	color: red;
-	margin-bottom: 50px;
+.blocku1{
+	color: black;
+	font-family: 'Muli',sans-serif;
+    font-size: 2.45rem;
 }
-.button{
-	background-color: #34A2C0;
+.line1{
+	display: inline-block;
+    width: 20%;
+    height: 1px;
+    border-top: 1px solid transparent;
+    background-color: #e4e4e4;
+}
+.p3{
+	padding-top: 1.5rem;
+}
+.p3-1{
+	padding-right: 1rem;
+    padding-left: 1rem;   
+ 	font-family: 'Muli',sans-serif;
+   	font-size: 1.3rem;
+    line-height: 1.6;
+    padding-top: 2rem;
+    text-align: center;
+    font-weight: 700;
+
+    
+    
+}
+.fig1{
+	background-color: transparent;
+	 display:flex;
+	 width: 10px;
+	 height: 60px;
+	
 }
